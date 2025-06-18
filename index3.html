@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TAGS</title>
+</head>
+
+<body>
+    <h1>FORM TAGS</h1>
+    <!-- <form action="server.jsp" method="post"> -->
+    <form>
+        <p>
+            <input type="text" required placeholder="Enter name" autofocus>
+        </p>
+        <button>SUBMIT</button>
+        <input type="image" src="button.png" width="40" height="40" style="object-fit: contain;">
+    </form>
+
+
+
+    <form>
+        <fieldset>
+            <legend>
+                login form
+            </legend>
+            <p>
+                <label for="username">Username:</label>
+            <p><input type="text" name="username" required placeholder="Enter EMAIL"></p>
+            <p><input type="text" name="username" required placeholder="Enter NAME"></p>
+            <p><input type="text" name="username" required placeholder="Enter password"></p>
+
+            <button>LOGIN</button>
+
+
+            <p>
+                <input type="list" name="country" placeholder="Enter country" list="country">
+                <datalist id="country">
+                    <option>INDIA</option>
+                    <option>USA</option>
+                    <option>UK</option>
+
+                </datalist>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
